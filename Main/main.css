@@ -1,6 +1,6 @@
 /* Developed mobile first */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body{
         margin: 0;
         padding: 0;
@@ -16,9 +16,7 @@
     }
 
     .navigation {
-        
         padding: 0;
-
     }
 
     .navigation p {
@@ -31,24 +29,25 @@
     }
     .banner {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
 
     }
 
     .banner .p_intro {
-        margin: 20% 20% 0 20%;
+        margin: 0.8% 20% 0 20%;
         padding: 0;
         text-align: center;
     }
 
     .banner .p_media{
-        margin: 2% 20% 2% 20%;
+        margin: 2% 20% 0% 20%;
         padding: 0;
         text-align: center;  
     }
 
     .banner .p_media_icons{
         text-align: center;
+        padding: 7px;
     }
 
     .banner .p_media_icons .fab{
