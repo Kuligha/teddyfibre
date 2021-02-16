@@ -1,0 +1,108 @@
+/* Developed mobile first */
+
+@media screen and (max-width: 800px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        background-color:rgb(20, 27, 28);
+        width: 100%;
+        color: aliceblue;
+    }
+    
+    .wrapper {
+        /* height: 60vh; */
+        background-color: rgb(20, 27, 28);   
+    }
+
+    .navigation {
+        
+        padding: 0;
+
+    }
+
+    .navigation p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.9em;
+        text-align: center;
+        text-decoration:underline solid grey ;
+
+    }
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .banner .p_intro {
+        margin: 20% 20% 0 20%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner .p_media{
+        margin: 2% 20% 2% 20%;
+        padding: 0;
+        text-align: center;  
+    }
+
+    .banner .p_media_icons{
+        text-align: center;
+    }
+
+    .banner .p_media_icons .fab{
+        margin: 2%;
+    }
+     
+    .banner img{
+        width: 80%;
+        border-radius: 50% 20% / 10% 40%;
+        margin-top: 10%;
+        margin-left: 10%;
+    
+    }
+    h2{
+        text-align: center;
+        text-decoration: underline overline solid;
+        font-size: 1.4em;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .work_display {
+        margin-top: 3%;
+        background-color: rgb(20, 27, 28);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 240px 240px 240px;
+    }
+    .work_display div{
+        /* display: block; */
+        text-align: center;
+    }
+    .work_display img{
+        height: 80%px;
+        width: 70%;
+        margin-left: 13%;
+        margin-top: 10%;
+        border-radius: 10% 50%;
+    }
+
+    .work_display img:hover{
+        height:220px;
+        width:200px ;
+        transition: 2s;
+    }
+
+    .work_display .image_texts {
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.1em;
+    }
+    footer{
+        text-align: center;
+    }
+
+    }
+  
